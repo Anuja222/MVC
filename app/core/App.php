@@ -9,6 +9,7 @@ class App
         $URL = explode("/", trim($URL,"/"));
         return $URL;
     }
+    
 
         public function loadController()
     {
